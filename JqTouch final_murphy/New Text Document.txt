@@ -1,0 +1,487 @@
+
+
+<!doctype html> 
+<html lang="en"> 
+<head> 
+	<meta charset="utf-8"> 
+	<title>Ulcerative Colitis</title> 
+	<meta name="description" content="Final Project"> 
+	<meta name="author" content="Lukas Murphy"> 
+	<meta name="viewport" content="width=device-width; initial-scale=1.0"> 
+	<link rel="stylesheet" href="jqtouch/jqtouch.css?v=1"> 
+	<link rel="stylesheet" href="themes/apple/theme.css?v=1"> 
+	<style type="text/css"> 
+		#about, .content {
+			padding: 100px 10px 40px;
+			text-shadow: rgba(255, 255, 255, 0.3) 0px -1px 0;
+			font-size: 13px;
+			text-align: center;
+			background: #FFFFFF;
+		}
+		p {
+			margin-bottom: 8px;
+			padding: 0px 40px;/* Added this so paragraphs wouldn't squish up against the edge */
+		}
+		a {
+			color: #990000;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+
+
+
+		.btn2.active {
+                background-color: rgba(0,0,0,.5);
+	</style> 
+	<script src="jqtouch/jquery-1.4.2.js?v=1" type="application/x-javascript" charset="utf-8"></script> 
+	<script src="jqtouch/jqtouch.js?v=1" type="application/x-javascript" charset="utf-8"></script> 
+	<script type="application/x-javascript"> 
+		var $jqt = new jQuery.jQTouch({
+				icon: 'jqtouch.png',
+				statusBar: 'black-translucent',
+				preloadImages: [
+					'themes/jqt/img/chevron_white.png'
+					, 'themes/jqt/img/bg_row_select.gif'
+					, 'themes/jqt/img/back_button_clicked.png'
+					, 'themes/jqt/img/button_clicked.png'
+					]
+		});
+ 
+	</script> 
+ 
+
+
+
+</head> 
+<body> 
+	<div id="jqt"> 
+		<!-- HOME --> 
+		<div id="home" class="current"> 
+			<div class="toolbar"> 
+				<h1>COLITIS</h1> 
+				<a class="button slideup" id="infoButton" href="#about">About</a> 
+			</div> 
+			<h2>WHAT YOU SHOULD KNOW!</h2> 
+			<p>This app will help people who are suffering through a disease known as Ulcerative Colitis and the related diseases: Chrones and IBS. </h2> 
+			
+			
+			<p>Each page will explore the topic listed in further detail</p> 
+			
+			<ul class="rounded"> 
+				<li class="arrow"><a href="#Gi">General Information</a></li> 
+				<li class="arrow"><a href="#TO">Treatment Options</a> </li> 
+				<li class="arrow"><a href="#Diets">Dieting Recomendations</a> </li> 
+				
+			</ul> 
+			<h2>Resources</h2> 
+			<ul class="rounded"> 
+				<li class="arrow"><a href="#Food">Food Tracker</a> </li> 
+				<li class="arrow"><a href="#support">Support Locator</a></li> 
+                                <li class="arrow"><a href="#Symptom">Symptom Checker</a></li> 
+				<li><a href="#" onclick="window.location='mailto:lmurphy06@aol.com'; return false;" class="noHighlight">Email me</a></li>
+				
+			</ul> 
+			<!--ul class="individual">
+					
+					<li><a href="#about">About</a></li>
+			</ul--> 
+			<div class="info"> 
+				<p>This is an app aimed to help people with IBD.</p> 
+			</div> 
+		</div> 
+ 
+		<!-- ABOUT --> 
+		<div id="about" class="selectable"> 
+			<p>This is a brochure type app with links to help you understand ulcerative colitis and its predecessors alittle bit better</p> 
+			<p><br /><br /><a href="#" class="grayButton goback">Close</a></p> 
+		</div> 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+										<!-- General Information Documentation --> 
+
+
+		<div id="Gi"> 
+			<div class="toolbar"> 
+				<h1>General Info</h1> 
+				<a href="#" class="back">Back</a> 
+			</div> 
+			<h2></h2> 
+ 
+			<h2>What is Ulcerative Colitis?</h2> 
+			<p> 
+			    UC is a form form of imflamatory bowel disease (IBD) that specifically affects the colon.  The 
+Ulcers form where the inflammation has killed the cells that usually occupy the lining of the colon.  This then results in bleeding and cramping
+from the inflammation and can cause alot of diarrhea when symptoms are severe.  The disease can occur in people of any age, but starts usually between
+the ages of 15 and 30 becoming less prevalent in people between the ages of 50-70.  Though it ony occurs in less than 1% of the population; based on 
+poor dieting and the excess of chemicals in the air these days it is becoming a much bigger problem than most people would suspect.  though modifying 
+the diet can increasingly help people with Bowel diseases its suspected that the leading factor for this disease is genetics.
+Ulcerative colitis is not caused by emotional distress or sensitivity to certain foods or food products, but these factors may trigger symptoms in some people. The stress of living with ulcerative colitis may also contribute to a worsening of symptoms.
+There's no known cure for ulcerative colitis, however therapies are available that may dramatically reduce the signs and symptoms of ulcerative colitis and even bring about a long-term remission.
+			</p> 
+			
+		</div> 
+
+
+
+
+ 
+ 
+
+
+
+
+
+										<!-- Treatment Options DOCUMENTATION --> 
+
+
+
+		<div id="TO"> 
+			<div class="toolbar"> 
+					<h1>Treatment</h1> 
+					<a href="#" class="back">Back</a> 
+			</div> 
+<br /> 
+		
+			<p>Standard treatment really depends on how severe the disease is and how much of the colon it is affecting
+			   the whole concept of treatment is to get the disease under control and into remission for the foreseeable future.	
+</p> 
+<br/>
+<br/>
+			<h2>Treatment Options</h2> 
+			<ul class="plastic"> 
+				<li class="toolbar"><a href="#MM">Modern Medicine</a></li> 
+				<li class="toolbar"><a href="#HM">Hollistic</a></li> 
+				 
+			</ul> 
+		</div> 
+ 
+		<div id="MM"> 
+			<div class="toolbar"> 
+					<h1>The Modern Way</h1> 
+					<a href="#" class="back">Back</a> 
+			</div> 
+		 <ul class="plastic"> 
+				<li class="toolbar"><a href="#drugs">Drugs</a></li> 
+				<li class="toolbar"><a href="#surgery">Surgery</a></li> 
+				<li class="toolbar"><a href="#hospital">Hospitalization</a></li> 
+			</ul> 
+			
+			
+		
+		</div> 
+
+		
+		<div id="drugs"> 
+			<div class="toolbar"> 
+					<h1>Drugs</h1> 
+					<a href="#" class="back">Back</a> 
+
+			</div> 
+			
+<br /> 
+			<p> 
+				There are many types of drugs that can be used to put Ulcerative colitis into remission, but the most common
+types of drugs include: <br />
+			<br /> <a href="http://en.wikipedia.org/wiki/Corticosteroid"><Target="blank'>Corticosteroids</a> <br />
+			<a href="http://en.wikipedia.org/wiki/Immunosuppressive_drug"><Target="blank'>Immunosuppressive drugs</a> <br />
+			<a href="http://en.wikipedia.org/wiki/Biological_therapy_for_inflammatory_bowel_disease"><Target="blank'>Biological treatment</a>			
+
+			</p> 
+			
+		</div> 
+		
+
+		<div id="surgery"> 
+			<div class="toolbar"> 
+					<h1>Surgery</h1> 
+					<a href="#" class="back">Back</a> 
+			</div>
+<br /> 
+			
+			<p> 
+				Surgery is a last resort.  if you do not have to have surgery i would recomend against it for the time being, but always consult with your doctor before making 
+decisions like this one.  surgery is an option for people who do not respond to the drugs or any treatment that are given.  about 20 to 40 percent of people with UC have to have this done because
+of  massive bleeding, severe illness, rupture of the colon, or risk of cancer due to the lack of change required to live with this disease.
+This Link Should help with any decisions that have to be made:<a href="http://www.ccfa.org/info/surgery/surgeryuc"><Target="blank'>  Surgery</a>
+			</p> 
+			
+		</div> 
+		<div id="hospital"> 
+			<div class="toolbar"> 
+					<h1>Hospitalization</h1> 
+					<a href="#" class="back">Back</a> 
+			</div> 
+<br/>
+			<p> 
+				This does not happen to most people, but it does happen.  The reason for hospitalization is that the person 
+being treated cannot keep food and nutrients in their body long enough to absorb any of it.  This can have radical effects on the body.  Along with the bleeding and 
+other side effects of IBD, it would be a good idea for a person if they have loss a radical amount of weight or cant seem to shake a fever to go to the hospital and check-in.
+This could be a life saver because there could be alot more wrong with the picture then just what is being seen.
+			</p> 
+			
+		</div> 
+
+
+
+
+
+		<div id="HM"> 
+			<div class="toolbar"> 
+					<h1>The Alternative WAY</h1> 
+					<a href="#" class="back">Back</a> 
+			</div> 
+<br/>
+			
+			<p> 
+			The alternative way is a fairly new concept in treating diseases in the States, but has been around for thousands of years.  A small percentage of people with IBD 
+use the hemopathic route because it works for them; however, for most people it will not. I tried it for about a year and steadily got better, but never to remission or a stage where I though i would reach it.
+			</p>
+<br/>
+			<p>
+Most people would consider Alternative Medicine by use of probiotics and herbs that will help steer the colon, or other disease, in the right direction; however it is this and so much more.
+there are hollistic places out in the world that use different types of electronic machines to help suppress diseases and get rid of them that way.  For most people this way 
+does not work, but for some it does it just depends on how your body specifically responds to differnt signals etc...
+For a better understanding of what alternative treatment looks like: <a href="http://www.rejuvenationmms.com/"><Target="blank'>The Alternative Way</a> <br />     
+			</p> 
+			
+		</div> 
+		
+		
+ 
+
+
+
+
+
+
+
+
+
+
+											<!-- Diets Documentation--> 
+
+
+		
+
+		<div id="Diets"> 
+			<div class="toolbar"> 
+				<h1>Diets</h1> 
+				<a href="#" class="back">Back</a> 
+			</div> 
+			<h2></h2> 
+ 
+			<h2>Dieting</h2> 
+			<p> 
+			    For most people with some form of Bowel disease the ultimate goel is to go back into remission.  I personally believe that dieting has alot to do with helping in that situation 
+by making it a bit more comfortable, or not, in life based on the way that you eat.  You can always eat the food that upsets your stomach, but the end result will always end with back in the hospital getting another
+colonoscopy.  
+			</p> 
+<br />
+
+			<p>
+		For peopele who are suffering from inflammation they recommend a low  <a href="http://www.healthcastle.com/low-residue-fiber-diet.shtml"><Target="blank'>Low Residue Diet</a> : However most people will still find that 
+they are uncomfortable even when eating on this type of plan.  Every person will respond to food differently so keep that in mind when reading up on things like this.  
+			<p/>
+<br />  
+
+			<p>
+Softer foods that will go easy on the colon are great to eat, but when eating like this most people get malnourished so be shure to get on a good multivitamin.  
+Some people prefer the BRATS diet: bananas, rice, apple sauce, toast, when their symptoms are really bad to help deal with the inflammation.  
+I've found too that the more you stay away from foods with preservatives and addative in them the better off you will be.  The more organic the better, because it will be alot fresher
+and more nourishing to the body.	
+			</p>
+			<br />
+
+			<p>
+The healthier you get and the more your body goes into remission the more foods you can add back at will, but from past experience i would stick to the path you are on right
+now so you dont have to really worry about coming out of remission again based solely on food.
+			</p> 
+			<p>
+I will leave you with the top foods and drinks to avoid:
+			<p>
+<br />
+			<p>
+-  alcohol
+			</p>
+			<p>
+-  caffeine
+			</p>
+			<p>
+-  carbonated beverages
+			</p>
+			<p>
+-  dairy products, if lactose intolerant
+			</p>
+			<p>
+-  dried beans, peas, and legumes
+			</p>
+			<p>
+-  dried fruits, berries, fruits with pulp or seeds
+			</p>
+			<p>
+-  foods containing sulfur or sulfate
+			</p>
+			<p>
+-  foods high in fiber, including whole-grain products
+			</p>
+			<p>
+-  hot sauce, pepper, spicy foods, sauces
+			</p>
+			
+			<p>
+-  meats
+			</p>
+			<p>
+-  nuts, crunchy nut butters
+			</p>
+ 			<p>
+-  popcorn, seeds
+			</p>
+			<p>
+-  products containing sorbitol (sugar-free gum and candies)
+			</p>
+			<p>
+-  raw vegetables
+			</p>
+			<p>
+-  refined sugar
+			</p>
+<br />
+			
+<br />
+
+
+
+		</div> 
+
+	
+
+										<!-- Food Tracker --> 
+
+
+
+<div id="Food" selected="true" class="edgetoedge form"> 
+            <div class="toolbar"> 
+                <h1>Food Tracker</h1> 
+                
+                <a href="#add" class="btn2 slideup add">Add</a> 
+		<a href="#" class="back">Back</a>
+            </div> 
+            <form> 
+            <ul class="incomplete"> 
+                <li><input type="checkbox" /> <span>PITA</span> <small><a href="#"></a></small></li> 
+                <li><input type="checkbox" /> <span>Hummus</span></li> 
+                <li><input type="checkbox" /> <span>Avacado</span></li> 
+            </ul> 
+            <h4>Foods i've eaten today</h4> 
+            <ul class="complete"> 
+                <li><input type="checkbox" checked /> <span>RICE</span></li> 
+                <li><input type="checkbox" checked /> <span>Noodles</span></li> 
+            </ul> 
+            </form> 
+        </div> 
+           <div id="add" class="edit">
+            <form> 
+                <div class="toolbar"> 
+                    <h1>Food Index</h1> 
+                    <a href="#" class="btn2 goback">Cancel</a> 
+                </div> 
+                <ul class="rounded"> 
+                    <li><input type="text" id="Food" placeholder="Enter your food" /></li> 
+                    <!-- <li><textarea id="description" placeholder="Descripton"></textarea></li> --> 
+                </ul> 
+                <a href="#" class="whiteButton" style="margin: 10px">Add</a> 
+            </form> 
+        </div> 
+
+
+
+
+
+									<!-- Support Locator-->
+
+    <div id="support"> 
+      <div class="toolbar"> 
+         <h1>Location</h1> 
+          <a class="back" href="#">Back</a> 
+           </div> 
+      <div class="map_class" id="mapall_canvas"> 
+       
+         </div> 
+    </div> 
+ 
+   <div id="support"> 
+      <div class="toolbar"> 
+         <h1>Location</h1> 
+          <a class="back" href="#">Back</a> 
+           </div> 
+      <div class="map_class" id="map_canvas"> 
+       
+         </div> 
+    </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+										<!-- Symptom Documentation --> 
+
+		<div id="Symptom"> 
+			<div class="toolbar"> 
+				<h1>Symptoms</h1> 
+				<a href="#" class="back">Back</a> 
+			</div> 
+			<h2></h2> 
+ 
+			<h2>Check Your Symptoms Now</h2> 
+			<form> 
+				<ul class="edit rounded"> 
+				
+					
+					 
+					<li><input type="checkbox" name="some_name" value="Hello" id="some_name" title="Anemia" /></li> 
+					<li><input type="checkbox" name="some_name" value="Hello" id="some_name" title="Fatigue" /></li> 
+					<li><input type="checkbox" name="some_name" value="Hello" id="some_name" title="Weight Loss" /></li> 
+					<li><input type="checkbox" name="some_name" value="Hello" id="some_name" title="Loss of Appetite" /></li> 
+					<li><input type="checkbox" name="some_name" value="Hello" id="some_name" title="Rectal Bleeding" /></li> 
+					<li><input type="checkbox" name="some_name" value="Hello" id="some_name" title="Loss of Body Fluid and Nutrients" /></li> 
+					<li><input type="checkbox" name="some_name" value="Hello" id="some_name" title="Joint Pain" /></li> 
+					<li><input type="checkbox" name="some_name" value="Hello" id="some_name" title="Fever" /></li>
+
+
+				</ul> 
+			</form> 
+			
+		</div> 
+
+
+
+ 
+ 
+		
+ 
+		
+ 
+ 
+	</div> 
+</body> 
+</html>
