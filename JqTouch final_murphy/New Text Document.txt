@@ -79,6 +79,8 @@
 				<li class="arrow"><a href="#Food">Food Tracker</a> </li> 
 				<li class="arrow"><a href="#support">Support Locator</a></li> 
                                 <li class="arrow"><a href="#Symptom">Symptom Checker</a></li> 
+				<li class="arrow"><a href="#Forum">Forum/Blog</a></li>
+				
 				<li><a href="#" onclick="window.location='mailto:lmurphy06@aol.com'; return false;" class="noHighlight">Email me</a></li>
 				
 			</ul> 
@@ -474,8 +476,28 @@ I will leave you with the top foods and drinks to avoid:
 		</div> 
 
 
-
- 
+
+										<!-- Forum/Blog -->
+<div id="Forum"> 
+			<div class="toolbar"> 
+				<h1>FORUM</h1> 
+				<a href="#" class="back">Back</a> 
+			</div> 
+			<h2></h2> 
+ 
+			<p> 
+				
+			</p> 
+			<h2>BLOG/Forum</h2> 
+			<form> 
+				<ul class="edit rounded"> 
+					
+					<li><textarea placeholder="EXPRESS YOURSELF" ></textarea></li> 
+					<a href="#" class="whiteButton" style="margin: 10px">ADD TO STREAM</a>
+				</ul> 
+			</form> 
+		</div> 
+ 
  
 		
  
