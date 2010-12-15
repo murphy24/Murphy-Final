@@ -1,0 +1,2 @@
+i never could get my add buttons to work
+i didnt know how to change my maps position on the actual html page.
